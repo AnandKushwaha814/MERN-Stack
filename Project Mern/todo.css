@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: red; */
+}
+.title{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+ .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    height: 40px;
+    width: 50%;
+    max-width: 600px;
+     
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    height: 50px;
+    flex:1;
+    padding: 0 10px;
+
+}
+.search-icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+.search-icon input{
+    flex: 1;
+    /* width: 100%; */
+    border: none;
+    padding: 5px;
+}
+
+/* Select */
+ .select{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-evenly;
+   background-color: rgb(66, 66, 242);
+   color: white;
+}
+
+.select-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.select-item p{
+    margin-right: 30px;
+}
+.select-item i{
+    margin-right: 15px;
+}
+.dark{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(66, 66, 242);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 530px;
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+label{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+
+.foot{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 200px;
+}
+.foot i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="b.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="admission.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1>School Admission Form</h1>
+        <div class="name">
+          <label for="studentFirstName">Your Name: </label>
+          <input type="text" id="studentFirstName" placeholder="First Name" required />
+          <input type="text" id="studentLastName" placeholder="Last Name" required />
+        </div>
+        <div class="class">
+          <label for="classSelection">Class You want to apply</label>
+          <select id="classSelection" required>
+            <option value="">Please Select:-</option>
+            <!-- Add options here -->
+          </select>
+        </div>
+        <div class="dob">
+          <label for="dob">Student Birth date: </label>
+          <input type="date" id="dob" required />
+        </div>
+        <div class="parent">
+          <label for="parentFirstName">Parent Name</label>
+          <input type="text" id="parentFirstName" placeholder="First Name" required />
+          <input type="text" id="parentLastName" placeholder="Last Name" required />
+        </div>
+        <div class="address">
+          <label for="address">Shipping Address</label>
+          <textarea id="address" placeholder="Street Address" required></textarea>
+        </div>
+        <div class="email">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter Your Email" required />
+        </div>
+        <div class="sub">
+          <button type="submit">SUBMIT FORM</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

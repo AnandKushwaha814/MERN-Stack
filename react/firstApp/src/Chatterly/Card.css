@@ -1,0 +1,108 @@
+/* Shop item */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 50px;
+
+}
+
+.shop-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 385px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+}
+
+.box-img {
+    display: flex;
+    /* Use flexbox to center content */
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 180px;
+    /* Adjusted height to better display an image */
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 12.6px 10px 10px 10px;
+    background-size: cover;
+    /* Ensures the image covers the entire box */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    opacity: 1;
+    /* Set to 1 for full visibility */
+}
+.box-img:hover{
+    transition:  0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+/* Box Content */
+h3 {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+}
+
+.box-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.author {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 55px;
+    color: rgb(98, 98, 102);
+}
+
+.add-second {
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(121, 121, 121, 1);
+
+}
+/* .add-second:hover{
+    color: red;
+    cursor: pointer;
+} */
+
+.like {
+    display: flex;
+    margin-top: -19px;
+    margin-left: 125px;
+    width: 70px;
+    justify-content: end;
+}
+
+
+.comment {
+    display: flex;
+    margin-top: -19px;
+    margin-left: 200px;
+    width: 60px;
+    align-items: center;
+    justify-content: end;
+}

@@ -1,24 +1,26 @@
 import "./App.css";
-import "./style.css"
-import Header from "./components/Header";
-import Card from  "./components/Card";
-import Title from  "./components/Title";
+import CardsTab from "./Chatterly/CardsTab";
 
+// import Cards from "./Card/Card"
+// import Name from "./name/Name";
 
 function App() {
-// const student={
-//   name: "Anand",
-//   age: 20,
-// }
-
   return (
     <>
-      <Header/>
-      <Title/>
-      <Card/>
-      <Card/>
-      <Card/>
-</>
+
+    <CardsTab/>
+      {/* <Cards />
+      <Cards />
+      <Cards />
+      <Cards /> */}
+      {/* <Name name="Anand" color="Blue"/>
+      <Name name="Prince" color="Red"/>
+      <Name name="Ramesh" color="Green"/>
+      <Name name="Rohan" color="darkRed"/>
+      <Name name="Shohan" color="darkPink"/>
+      <Name name="Ramu" color="yellow"/> */}
+
+    </>
   );
 }
 

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(245, 248, 255, 1);
+}
+
+/***************************Navbar***********************************************/
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(245, 248, 255, 1);
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+    height: 80px;
+    width: 100%;
+
+}
+
+/***************************Nav img***********************************************/
+.nav-img {
+    width: 125px;
+    height: 45px;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+    background-size: cover;
+    background-image: url('../assets/chartterly.png');
+}
+
+/***************************Nav logo***********************************************/
+.nav-logo {
+    margin-left: 70%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('../assets/anand.jpg');
+    background-size: cover;
+    align-items: center;
+    display: flex;
+
+}
+
+/***************************Nav Title***********************************************/
+.nav-title {
+    width: 83px;
+    height: 16px;
+    margin-left: 11px;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title i {
+    align-items: center;
+    margin-left: 5px;
+    color: #828282;
+}
+
+/***************************Navbar section***********************************************/
+img {
+    color: #828282;
+    margin-left: 100px;
+}
+
+.nav-section {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 3px 4px rgba(225, 226, 230, 0.735);
+    justify-content: space-between;
+}
+
+.nav-filter {
+    height: 83px;
+    width: 83px;
+    margin-left: 100px;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+
+.user {
+    margin-left: 55px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.73px;
+    text-align: left;
+    color: rgba(121, 121, 121, 1);
+}
+
+.nav-select {
+    margin-left: 50px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-select1 {
+    padding: 20px;
+    width: 161px;
+    height: 34px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    border: none;
+}
+
+.nav-select i {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 34px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    color: rgba(121, 121, 121, 1);
+
+}
+
+/* Date */
+
+.user1 {
+    margin-left: 55px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.73px;
+    text-align: left;
+    color: rgba(121, 121, 121, 1);
+}
+
+.nav-date {
+    margin-left: 50px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-date1 {
+    padding: 20px;
+    width: 161px;
+    height: 34px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    border: none;
+}
+
+.nav-date i {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 34px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    color: rgba(121, 121, 121, 1);
+
+}
+
+/* search */
+.user2 {
+    margin-left: 250px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.73px;
+    /* text-align: left; */
+    color: rgba(121, 121, 121, 1);
+}
+
+.nav-search {
+    margin-left: 250px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-search1 {
+    padding: 20px;
+    width: 161px;
+    height: 34px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    border: none;
+}
+
+.nav-search i {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 34px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgba(240, 241, 241, 1);
+    color: rgba(121, 121, 121, 1);
+
+}

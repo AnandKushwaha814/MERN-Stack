@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulatin</title>
+</head>
+<body style="background-color: rgba(84, 88, 88, 0.959); color: azure;">
+    <div class="parent">
+        <div class="day">Monady</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+    </div>
+</body>
+<script>
+    const days=document.querySelector('.parent')
+    console.log(days);
+    console.log(days.children);
+    console.log(days.children[1].innerHTML);
+    
+</script>
+</html>

@@ -13,12 +13,12 @@ function App() {
       <Cards />
       <Cards />
       <Cards /> */}
-      <Name name="Anand" color="Blue"/>
+      {/* <Name name="Anand" color="Blue"/>
       <Name name="Prince" color="Red"/>
       <Name name="Ramesh" color="Green"/>
       <Name name="Rohan" color="darkRed"/>
       <Name name="Shohan" color="darkPink"/>
-      <Name name="Ramu" color="yellow"/>
+      <Name name="Ramu" color="yellow"/> */}
 
     </>
   );

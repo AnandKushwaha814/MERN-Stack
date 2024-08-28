@@ -1,5 +1,6 @@
 import "./App.css";
-import CardsTab from "./Chatterly/CardsTab";
+import Counter from "./name/Counter";
+// import CardsTab from "./Chatterly/CardsTab";
 
 // import Cards from "./Card/Card"
 // import Name from "./name/Name";
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
 
-    <CardsTab/>
+    {/* <CardsTab/> */}
       {/* <Cards />
       <Cards />
       <Cards />
@@ -19,6 +20,7 @@ function App() {
       <Name name="Rohan" color="darkRed"/>
       <Name name="Shohan" color="darkPink"/>
       <Name name="Ramu" color="yellow"/> */}
+      <Counter/>
 
     </>
   );

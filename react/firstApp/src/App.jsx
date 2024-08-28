@@ -1,11 +1,12 @@
 import "./App.css";
-import Counter from "./name/Counter";
+// import Counter from "./name/Counter";
+import BackgroundChanger from "./name/BackgroundChanger";
 // import CardsTab from "./Chatterly/CardsTab";
 
 // import Cards from "./Card/Card"
 // import Name from "./name/Name";
 
-function App() {
+function App () {
   return (
     <>
 
@@ -20,7 +21,8 @@ function App() {
       <Name name="Rohan" color="darkRed"/>
       <Name name="Shohan" color="darkPink"/>
       <Name name="Ramu" color="yellow"/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <BackgroundChanger/>
 
     </>
   );

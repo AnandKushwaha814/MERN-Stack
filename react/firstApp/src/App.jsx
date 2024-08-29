@@ -1,5 +1,5 @@
 import "./App.css";
-import Counter from "./name/Counter";
+import Counter from "./Tasks/Counter";
 // import BackgroundChanger from "./name/BackgroundChanger";
 // import CardsTab from "./Chatterly/CardsTab";
 

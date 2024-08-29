@@ -1,7 +1,17 @@
 /* eslint-disable react/prop-types */
 import "./Card.css";
+import { useState } from "react";
+import { FaHeart } from "react-icons/fa";
+import { CiHeart } from "react-icons/ci";
 
-const Card = ({ title, image, date, author, img, like, comment }) => {
+const Card = ({ title, image, date, author, img, comment }) => {
+  const [likes,setLikes]=useState(0)
+  const [colors,setColors]=useState(false)
+  const handleLike = () => {
+    setLikes(likes + 1)
+    setColors(!colors)
+  }
+
   const style = {
     color: "#9fa0a3",
     marginLeft: 4,
@@ -27,16 +37,13 @@ const Card = ({ title, image, date, author, img, like, comment }) => {
             <div className="add-icon">
               <p className="add-second">{date}</p>
             </div>
-            <div className="like">
-              <i
-                className="fa-solid fa-heart"
-                style={{ color: "#9fa0a3" }}
-              />
+            <div className="like" onClick={handleLike}>
+              {colors ?<FaHeart color='red' size={20}/> : <CiHeart size={20}/> }
               <p>
                 <span
-                  style={style}
+                  style={style} 
                 >
-                  {like}
+                  {likes}
                 </span>
               </p>
             </div>

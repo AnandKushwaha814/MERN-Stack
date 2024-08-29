@@ -1,12 +1,9 @@
 /* Footer */
 footer {
     margin-top: 30px;
-    /* background-color: red; */
 }
 
 .foot-panel {
-    /* background-color: #222f3d; */
-    /* color: white; */
     height: 160px;
     display: flex;
     justify-content: space-evenly;

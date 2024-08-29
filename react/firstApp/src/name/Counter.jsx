@@ -16,7 +16,7 @@ const Counter = () => {
     }
 
     return (
-        <div>
+        <div className='flex'> 
             <h1>Count: {count}</h1>
             <button onClick={increase}>
                 increase

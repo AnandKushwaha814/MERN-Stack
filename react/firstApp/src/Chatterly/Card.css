@@ -95,8 +95,8 @@ h3 {
     margin-left: 125px;
     width: 70px;
     justify-content: end;
+    cursor: pointer;
 }
-
 
 .comment {
     display: flex;

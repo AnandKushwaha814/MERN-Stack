@@ -11,18 +11,16 @@ const BackgroundChanger = () => {
  return (
     <>
       <div className="main" style={{backgroundColor:color}}>
-
       </div>
       <div className="button">
         <button onClick={()=>changeColor("red")}> Red</button>
         <button onClick={()=>changeColor("blue")}> Blue</button>
         <button onClick={()=>changeColor("Black")}> Black</button>
-        <button onClick={()=>changeColor("yellow")}> Yello</button>
+        <button onClick={()=>changeColor("yellow")}> Yellow</button>
         <button onClick={()=>changeColor("green")}> Green</button>
-        <button onClick={()=>changeColor("green")}> Disco</button>
+        {/* <button onClick={()=>changeColor("green")}> Disco</button> */}
         <button onClick={()=>changeColor("")}> Reset</button>
       </div>
-
     </>
   )
 }

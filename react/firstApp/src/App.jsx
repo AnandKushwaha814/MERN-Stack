@@ -1,5 +1,6 @@
 import "./App.css";
-import Counter from "./Tasks/Counter";
+// import Navbar from "./Tasks/Navbar";
+// import Counter from "./Tasks/Counter";
 // import BackgroundChanger from "./name/BackgroundChanger";
 // import CardsTab from "./Chatterly/CardsTab";
 
@@ -8,6 +9,8 @@ import Counter from "./Tasks/Counter";
 
 
 // import Like from "./name/Like";
+import Todo from "./Tasks/Todo";
+
 
 function App () {
   return (
@@ -24,11 +27,16 @@ function App () {
       <Name name="Rohan" color="darkRed"/>
       <Name name="Shohan" color="darkPink"/>
       <Name name="Ramu" color="yellow"/> */}
-      <Counter/>
+      {/* <Counter/> */}
      
       {/* <BackgroundChanger/> */}
       
       {/* <Like/> */}
+
+
+      {/* <Navbar/> */}
+
+      <Todo/>
 
     </>
   );

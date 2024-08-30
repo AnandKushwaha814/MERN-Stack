@@ -1,25 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dom Manipulatin</title>
-</head>
-<body style="background-color: rgba(84, 88, 88, 0.959); color: azure;">
-    <div class="parent">
-        <div class="day">Monady</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Thursday</div>
-        <div class="day">Friday</div>
-        <div class="day">Saturday</div>
+  </head>
+  <body style="background-color: rgba(84, 88, 88, 0.959); color: azure">
+    <div class="language">
+      <li>JavaScript</li>
     </div>
-</body>
-<script>
-    const days=document.querySelector('.parent')
-    console.log(days);
-    console.log(days.children);
-    console.log(days.children[1].innerHTML);
-    
-</script>
+    <!-- <div class="parent">
+      <div class="day">Monady</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+      <div class="day">Saturday</div>
+    </div> -->
+  </body>
+  <script>
+    // const parent = document.querySelector(".parent");
+    // console.log(days);
+    // console.log(days.children);
+    // console.log(days.children[1].innerHTML);
+    // for (let i = 0; i < parent.children.length; i++) {
+    //   console.log(parent.children[i].innerHTML);  // print all the value of parent class
+    // }
+    // console.log("Nodes: ",parent.childNodes);
+
+    // creating a element
+
+    // const div=document.createElement('div')
+    // div.className="main"
+    // div.id="myId"
+    // div.id=Math.round(Math.random()*10+1)
+    // div.setAttribute("title","generatedTitle")
+    // div.style.background="green"
+    // div.style.padding="12px"
+    // const addText=document.createTextNode("Anand")
+    // div.appendChild(addText)
+    // document.body.appendChild(div)
+    // console.log(div);
+
+    // add, edit, and remove
+    function addLang(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLang("Java");
+    addLang("Python");
+
+    function addOptLang(langName) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langName));
+      document.querySelector(".language").appendChild(li);
+    }
+    addOptLang("CSS");
+
+    // Edit ELelment
+    const editText = document.querySelector("li:nth-child(2)");
+    // editText.innerHTML="React"
+
+    const newLi = document.createElement("li");
+    newLi.textContent = "Anand";
+    editText.replaceWith(newLi);
+
+    const firstLang = document.querySelector("li:first-child");
+    firstLang.outerHTML = "<li>Typescript</l>";
+
+    // Remove Element
+    const removeText = document.querySelector("li:last-child");
+    removeText.remove();
+  </script>
 </html>

@@ -9,7 +9,8 @@ import "./App.css";
 
 
 // import Like from "./name/Like";
-import Todo from "./Tasks/Todo";
+// import Todo from "./Tasks/Todo";
+import Bmi from "./Tasks/Bmi";
 
 
 function App () {
@@ -36,7 +37,9 @@ function App () {
 
       {/* <Navbar/> */}
 
-      <Todo/>
+      {/* <Todo/> */}
+
+      <Bmi/>
 
     </>
   );

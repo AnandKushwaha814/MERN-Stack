@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Optional: add some rounding to the container */
+}
+
+.height, label {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Ensures consistent input width */
+    margin-bottom: 10px; /* Adds spacing below inputs */
+    border: 1px solid #ccc;
+}
+
+button.calculate { /* Explicitly specify button */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007BFF; /* Optional: add button color */
+    color: #fff; /* Optional: text color */
+    border: none; /* Optional: remove default button border */
+}
+
+.weight-guide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 0.85rem;
+    margin: 10px;
+    text-align: center; /* Ensures text is centered */
+}

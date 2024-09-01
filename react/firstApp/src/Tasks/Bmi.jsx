@@ -19,7 +19,7 @@ const Bmi = () => {
         const calculateBmi =(weight / ((height * height) / 10000)).toFixed(2);
         let bmiCategory=''
         if(calculateBmi<18.6){
-            bmiCategory = `Underweight &#128530`;
+            bmiCategory = `Underweight `;
         } else if(calculateBmi>=18.6 && calculateBmi<=24.9){
             bmiCategory = `Normal weight `;
         }else if(calculateBmi>=24.9 && calculateBmi<29.9){

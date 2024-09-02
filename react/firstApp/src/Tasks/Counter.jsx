@@ -1,7 +1,24 @@
-import "./Counter.css"
-import { useState } from "react";
+// import "./Counter.css"
+import { useState,useEffect } from "react";
 const Counter = () => {
     const [count, setCount] = useState(0);
+
+        // useEffect
+    useEffect(()=>{
+        console.log('first time call');
+    },[])
+
+    useEffect(()=>{
+        console.log('when state is change')
+    },[count])
+
+    useEffect(()=>{
+        console.log('count is unmunted',count)
+        return()=>{
+            console.log('unmounting')
+        }
+    },[])
+
     const increase = () => {
         setCount(count + 1);
     }
@@ -15,16 +32,23 @@ const Counter = () => {
         setCount(0)
     }
 
+
+
+
+
+
+
+
     return (
-        <div className='flex'> 
-            <h1>Count: {count}</h1>
-            <button onClick={increase}>
+        <div className=' items-center justify-center mt-3 text-center'> 
+            <h1 className='p-[10px] text-xl text-red-500'>Count: {count}</h1>
+            <button className='p-[10px] bg-slate-400 m-[10px] rounded hover:bg-green-500' onClick={increase}>
                 increase
             </button>
-            <button onClick={decrease}>
+            <button className='p-[10px] bg-slate-400 m-[10px] rounded hover:bg-green-500' onClick={decrease}>
                 decrease
             </button>
-            <button onClick={reset}>Reset</button>
+            <button className='p-[10px] bg-slate-400 m-[10px] rounded hover:bg-green-500' onClick={reset}>Reset</button>
         </div>
     )
 }

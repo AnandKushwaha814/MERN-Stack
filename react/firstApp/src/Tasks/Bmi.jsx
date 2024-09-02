@@ -10,7 +10,6 @@ const Bmi = () => {
 
         if (height === "" || height <= 0 || isNaN(height)) {
             setStatus("Please Enter Valid Height");
-            // setColor("red")
             return;
         } else if(weight ==='' || weight<=0 || isNaN(weight)){
             setStatus("Please Enter Valid Weight");

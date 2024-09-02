@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async</title>
+  </head>
+  <body>
+    <h1>Anand Kumar Kushwaha</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    let intervalId;
+    // Start button click event listener
+    document.querySelector("#start").addEventListener("click", function () {
+      intervalId = setInterval(function () {
+        startMe("Hello World!");
+      }, 1000);
+      console.log("Started");
+    });
+    // stop button click event listener
+    document.querySelector("#stop").addEventListener("click", function () {
+      clearInterval(intervalId);
+      console.log("Stopped");
+    });
+    // pass the message
+    function startMe(message) {
+      console.log(message);
+    }
+  </script>
+</html>
+y

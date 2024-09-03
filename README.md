@@ -7,12 +7,18 @@
   {()=>}
 - {} for code resuablity,
 - component = nothing but jsx use marup
+- component name alywas start with Capital Letter
 - class based
 - functional
 - Props Parent to child
 - pass number using {}
 - pass array {["",""]}
 - destructuring {abc,def,ghi}
+- componet reusable functional
+- vite web package
+- library- may function
+- framework- may library big
+- package.json =meta data about data
 
 ## Create a new repository on the command line
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Data From Api Calling</title>
+  </head>
+  <body>
+    <h1>Get Data From Api</h1>
+  </body>
+  <script>
+    const requestUrl = "https://api.github.com/users";
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", requestUrl);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        const data = JSON.parse(this.responseText);
+
+
+        // logo
+        data.forEach((user) => {
+          const img = document.createElement("img");
+          img.src = user.avatar_url;
+          document.body.appendChild(img);
+        });
+      }
+    };
+    xhr.send();
+  </script>
+</html>

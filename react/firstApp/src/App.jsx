@@ -1,7 +1,7 @@
 import "./App.css";
 // import Navbar from "./Tasks/Navbar";
 // import Counter from "./Tasks/Counter";
-import GitApi from "./Tasks/GitApi";
+// import GitApi from "./Tasks/GitApi";
 // import BackgroundChanger from "./name/BackgroundChanger";
 // import CardsTab from "./Chatterly/CardsTab";
 
@@ -12,6 +12,8 @@ import GitApi from "./Tasks/GitApi";
 // import Like from "./name/Like";
 // import Todo from "./Tasks/Todo";
 // import Bmi from "./Tasks/Bmi";
+
+import Random from "./Tasks/Random";
 
 
 function App () {
@@ -42,7 +44,8 @@ function App () {
 
       {/* <Bmi/> */}
 
-      <GitApi/>
+      {/* <GitApi/> */}
+      <Random/>
 
     </>
   );

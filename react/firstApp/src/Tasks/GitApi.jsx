@@ -10,19 +10,17 @@ const GitApi = () => {
             .then((response) => response.json())
             .then((data) => setUsers(data))
             .catch((error) => console.error('Error fetching data:', error));
-    }, [])
+    },[])
     const filteredUsers = users.filter(user =>
         user.login.toLowerCase().includes(search.toLowerCase())
     );
-
     // Convert first Name into Capitalize
-    const capitalizeName=(string)=>{
+    const capitalizeName = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
     };
-
     return (
         <>
-            <h1 className="text-4xl font-bold text-center text-blue-500 mb-6">GitHub User Finder</h1>
+            <h1 className="text-4xl font-bold text-center text-red-500 mb-6">GitHub User Finder</h1>
             <input
                 type="text"
                 placeholder="Search users..."
@@ -40,9 +38,7 @@ const GitApi = () => {
                         <img className='h-[100px] w-[100px] items-center rounded mx-auto' src={user.avatar_url} alt={user.login} />
                         <h2 className='text-center p-3 text-red-600 text-2xl font-bold'>{capitalizeName(user.login)}</h2>
 
-
-
-                    {/*  */}
+                        {/*  */}
                         <a href={user.html_url} target='_blank' className='block text-center bg-slate-500 p-4 rounded mt-2 ml-5 mr-5 font-bold text-white hover:bg-green-500'>
                             View Profile
                         </a>

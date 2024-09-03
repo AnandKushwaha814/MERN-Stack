@@ -36,9 +36,9 @@
 
 ### 4. Why Is `React known as React` ?
 
-- React is known as React due to its ability to "react" to changes in the application state. The name was chosen by Jordan Walke, a software engineer at Facebook, who developed the initial version of the library.
-- React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components.
-- React is known as React due to its ability to efficiently react to changes in the application state, making it a powerful and scalable solution for building user interfaces.
+- `React` is known as React due to its ability to "react" to changes in the application state. The name was chosen by Jordan Walke, a software engineer at Facebook, who developed the initial version of the library.
+- `React` is a `JavaScript library` for building user interfaces. It allows developers to create reusable UI components.
+- `React` is known as `React` due to its ability to efficiently react to changes in the application state, making it a powerful and scalable solution for building user interfaces.
 
 ### 5. What is `crossorgin in script tag` ?
 

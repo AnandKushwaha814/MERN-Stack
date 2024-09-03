@@ -11,6 +11,7 @@ const GitApi = () => {
             .then((data) => setUsers(data))
             .catch((error) => console.error('Error fetching data:', error));
     },[])
+    
     const filteredUsers = users.filter(user =>
         user.login.toLowerCase().includes(search.toLowerCase())
     );
@@ -18,6 +19,9 @@ const GitApi = () => {
     const capitalizeName = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
     };
+
+    // data is not load the shoe loading...
+    if (!users) return <h1 className='p-4 m-5 text-red-600 font-bold text-5xl text-center'>Loading...</h1>
     return (
         <>
             <h1 className="text-4xl font-bold text-center text-red-500 mb-6">GitHub User Finder</h1>

@@ -46,23 +46,23 @@
 
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
-
-### tailwind.config.js
-
-- /** @type {import('tailwindcss').Config} \*/
-  export default {
+``` /** @type {import('tailwindcss').Config} */
+export default {
   content: [
-  "./index.html",
-  "./src/**/\*.{js,ts,jsx,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-  extend: {},
+    extend: {},
   },
   plugins: [],
-  }
-- @tailwind base;
-- @tailwind components;
-- @tailwind utilities;
+}
+
+index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 ## React Icon Installing
 * npm i react-icons

@@ -2,7 +2,7 @@ import "./App.css";
 // import Navbar from "./Tasks/Navbar";
 // import Counter from "./Tasks/Counter";
 // import BackgroundChanger from "./name/BackgroundChanger";
-// import CardsTab from "./Chatterly/CardsTab";
+import CardsTab from "./Chatterly/CardsTab";
 
 // import Cards from "./Card/Card"
 // import Name from "./name/Name";
@@ -12,7 +12,7 @@ import "./App.css";
 // import Todo from "./Tasks/Todo";
 // import Bmi from "./Tasks/Bmi";
 
-import GitApi from "./Tasks/GitApi";
+// import GitApi from "./Tasks/GitApi";
 // import Random from "./Tasks/Random";
 
 
@@ -20,7 +20,7 @@ function App () {
   return (
     <>
 
-    {/* <CardsTab/> */}
+    <CardsTab/>
       {/* <Cards />
       <Cards />
       <Cards />
@@ -44,7 +44,7 @@ function App () {
 
       {/* <Bmi/> */}
 
-      <GitApi/>
+      {/* <GitApi/> */}
       {/* <Random/> */}
 
     </>

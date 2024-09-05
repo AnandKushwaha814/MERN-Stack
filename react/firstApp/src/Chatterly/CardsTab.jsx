@@ -2,6 +2,7 @@ import Header from "../Chatterly/Header";
 import Card from "../Chatterly/Card"
 import Title from "../Chatterly/Title"
 import Footer from "../Chatterly/Footer"
+import './CardTab.css'
 
 function CardsTab() {
   const img1 = "../src/assets/free-images.jpg"
@@ -12,7 +13,7 @@ function CardsTab() {
   const img6 = "../src/assets/3359736.jpg"
   const img7 = "../src/assets/lion.jpg"
   const img8 = "../src/assets/samsung.png"
-  const img9 = "../src/assets/nature.jpg"
+  // const img9 = "../src/assets/nature.jpg"
 
   const ProfileLogo1 = "../src/assets/anand.jpg"
   const ProfileLogo2 = "../src/assets/Ellipse80.png"
@@ -22,7 +23,7 @@ function CardsTab() {
   const ProfileLogo6 = "../src/assets/Ai.jpg"
   const ProfileLogo7 = "../src/assets/Oval.png"
   const ProfileLogo8 = "../src/assets/free-images.jpg"
-  const ProfileLogo9 = "../src/assets/3359736.jpg"
+  // const ProfileLogo9 = "../src/assets/3359736.jpg"
   return (
     <>
       <Header />
@@ -36,7 +37,7 @@ function CardsTab() {
         <Card title="Ai & Ml" date="Nov 05 2021" author="Pitter" image={img6} img={ProfileLogo6} like={225} comment={125} />
         <Card title="Animal" date="Aug 15 2019" author="Alex" image={img7} img={ProfileLogo7} like={430} comment={200} />
         <Card title="Phones" date="July 31 2015" author="Jone" image={img8} img={ProfileLogo8} like={330} comment={225} />
-        <Card title="Trees" date="Feb 20 2017" author="Ajit" image={img9} img={ProfileLogo9} like={230} comment={149} />
+        {/* <Card title="Trees" date="Feb 20 2017" author="Ajit" image={img9} img={ProfileLogo9} like={230} comment={149} /> */}
 
       </div>
       <Footer />

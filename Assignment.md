@@ -137,19 +137,19 @@ A: 5 superpowers of Parcel:
 
 * `Browserslist` is a configuration tool that allows you to specify which browsers and versions your project should support.It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
 
-## 24. What is `JSX`?
+## 23. What is `JSX`?
 
 * `JSX` stands for `JavaScript XML`. JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. It is commonly used in React, a popular JavaScript library for building user interfaces. JSX makes it easier to write and add HTML in React. JSX converts HTML tags into react elements.
 
-## 25. Superpowers of `JSX`.
+## 24. Superpowers of `JSX`.
 
 * Using JSX, you can write markup inside Javascript, providing you with a superpower to write logic and markup of a component inside a single .jsx file. JSX is easy to maintain and debug.
 
-## 26. Role of `type` attribute in script tag? What options can I use there?
+## 25. Role of `type` attribute in script tag? What options can I use there?
 
 * The `type` attribute in a `<script>` tag specifies the type of script or data contained within the tag. It is used to identify the language of the script or the format of the data.
 
-## 27. `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
+## 26. `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
 * `{TitleComponent}`: This value describes the `TitleComponent` as a javascript expression or a variable. The `{}` can embed a javascript expression or a variable inside it.
 
 * `<TitleComponent/>` : This value represents a Component that is basically returning Some JSX value. In simple terms TitleComponent a function that is returning a JSX value. A component is written inside the `{<  />}` expression.
